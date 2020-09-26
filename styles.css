@@ -1,0 +1,33 @@
+.strike {
+    text-decoration: line-through;
+}
+
+.delete {
+    background-color: #ff2040;
+    border: none;
+    height: 3rem;
+}
+
+.check {
+    background-color: #60ff80;
+    border: none;
+    height: 3rem;
+}
+
+ul {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+    border: solid 2px black;
+    height: 3rem;
+    margin: 0.6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    width: 30%;
+}
